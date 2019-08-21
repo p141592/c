@@ -1,6 +1,8 @@
 # local_settings
 Настройки командной оболочки MacOS / Linux
 
+Хочу, чтобы на серверах / docker контейнерах / домашнем компьютере / ноуте, была одинаковая среда и среда синхронизировалась при начале сессии
+
 ## Установка настроек:
 
 `cd ~ && git init && git remote add origin git@github.com:p141592/local_settings.git && git pull origin master && ln -s local_settings.sh /usr/local/bin/local_settings.sh && local_settings.sh init`
