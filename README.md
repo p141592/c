@@ -8,31 +8,11 @@
 - Хранение backup конфигов и быстрое восстановление при аварии
 - Автоматическое обновление профиля при старте командной оболочки
 
-https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12.html
+[IEEE Std 1003.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12.html)
+
 ## Установка
 
 wget <URL релиза> /usr/local/lib/c/
 ln -s /usr/local/lib/c/c.sh /usr/local/bin/c
 c install
 c status
-
-## Синхронизация
-
-c sync
-
-## Push профиля
-
-c push <имя профиля>
-
-## Переключение между профилями
-
-c checkout <имя профиля>
-
-## Статус текущего интерфейса
-
-c status   
-
-## Удалние профиля
-
-## Удаление приложения
-
