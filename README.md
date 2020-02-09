@@ -10,9 +10,22 @@
 
 [IEEE Std 1003.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12.html)
 
-## Установка
+## Установка cli-home
 
-wget <URL релиза> /usr/local/lib/c/
-ln -s /usr/local/lib/c/c.sh /usr/local/bin/c
-c install
-c status
+`wget <URL релиза> /usr/local/lib/c/`
+
+`ln -s /usr/local/lib/c/c.sh /usr/local/bin/c`
+
+`c install`
+
+`c status`
+
+## Работа с окружениями
+
+`с env install` // Установить окружение
+
+## Конфигурция окружения
+
+`c zsh plugin install <название плагина>`
+
+`c vim plugin install  <название плагина>`
