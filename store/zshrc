@@ -14,7 +14,7 @@ export AWS_ACCESS_KEY_ID=7ATWK5BAF5KJVDDSUF4F
 export AWS_SECRET_ACCESS_KEY=tH6K8DrVjBgRwLZ7igfg5oWN6OS7U3b8aQ47Nm8I
 export AWS_DEFAULT_REGION=zg_publicru
 export AWS_ENDPOINT_URL=http://s3.lib.public.ru
-EXport KUBECONFIG=~/.kube/public.dev
+export KUBECONFIG=~/.kube/public.dev
 
 
 # Path to your oh-my-zsh installation.
