@@ -41,3 +41,8 @@
 `c zsh plugin install <название плагина>`
 
 `c vim plugin install  <название плагина>`
+
+
+### Полезные команды
+
+Найти самые большие файлы в системе: `du -a /home | sort -n -r | head -n 5`
