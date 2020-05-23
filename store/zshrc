@@ -1,14 +1,14 @@
 
 alias dc='docker-compose'
 alias k="kubectl"
-alias build_server="ssh baryshnikov@m01.dockerbuild.infra.rbc.ru"
+alias kl="k get all"
+alias kn="kubens"
 alias dm="docker-machine"
 alias d="docker"
-alias serve="browser-sync start -s -f . --no-notify --host $LOCAL_IP --port 9000"
 
 ZSH_DISABLE_COMPFIX=true
 export LC_ALL=en_US.UTF-8
-export PATH=$HOME/bin:$HOME/Library/Python/3.7/bin:/usr/local/flutter/bin:$HOME/.local/bin:/Applications/Postgres.app/Contents/Versions/11/bin:$PATH
+export PATH=$HOME/bin:/usr/local/sbin:$HOME/Library/Python/3.7/bin:/usr/local/flutter/bin:$HOME/.local/bin:/Applications/Postgres.app/Contents/Versions/11/bin:$PATH
 export LOCAL_IP=`ipconfig getifaddr en0 || ipconfig getifaddr en3`
 export AWS_ACCESS_KEY_ID=7ATWK5BAF5KJVDDSUF4F
 export AWS_SECRET_ACCESS_KEY=tH6K8DrVjBgRwLZ7igfg5oWN6OS7U3b8aQ47Nm8I
@@ -72,7 +72,7 @@ ZSH_THEME="sunrise"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git command-time zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git command-time zsh-autosuggestions zsh-syntax-highlighting fzf)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs vcs custom_command_time time)
 source $ZSH/oh-my-zsh.sh
 
