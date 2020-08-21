@@ -12,6 +12,10 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'elixir-lang/vim-elixir'
+Plugin 'tpope/vim-surround'
+Plugin 'preservim/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'fatih/vim-go'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
