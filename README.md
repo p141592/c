@@ -24,24 +24,6 @@
 
 ## Установка cli-home
 
-`wget <URL релиза> /usr/local/lib/c/`
-
-`ln -s /usr/local/lib/c/c.sh /usr/local/bin/c`
-
-`c install`
-
-`c status`
-
-## Работа с окружениями
-
-`с env install` // Установить окружение
-
-## Конфигурция окружения
-
-`c zsh plugin install <название плагина>`
-
-`c vim plugin install  <название плагина>`
-
 
 ### Полезные команды
 

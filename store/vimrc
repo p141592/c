@@ -1,6 +1,7 @@
 syntax on
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible             
+set backspace=indent,eol,start
+filetype off                 
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
