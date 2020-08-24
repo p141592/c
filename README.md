@@ -22,7 +22,29 @@
 
 [IEEE Std 1003.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12.html)
 
+
+## Индекс элементов
+
+- vim
+
+Настройки и 
+
+[vimrc](store/vimrc)
+[vim packages folder](store/vim)
+
+- zsh
+
+[zshrc](store/zshrc)
+[oh-my-zsh](store/oh-my-zsh)
+
+- iterm.json
+
+[iterm profile](store/iterm.json)
+
+
+
 ## Установка cli-home
+
 
 
 ### Полезные команды
