@@ -1,4 +1,4 @@
-
+alias watch='watch '
 alias dc='docker-compose'
 alias k="kubectl"
 alias kl="k get all"
