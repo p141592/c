@@ -20,33 +20,23 @@
 - Контроль времени за работой (На каком профиле и сколько времени потрачено)
 - Удаление проектов локально, если удаленный репозиторий удален
 
-[IEEE Std 1003.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12.html)
-
-
 ## Индекс элементов
 
-- vim
+### vim
 
-Настройки и 
+- [vimrc](store/vimrc)
+- [vim packages folder](store/vim)
 
-[vimrc](store/vimrc)
-[vim packages folder](store/vim)
+### zsh
 
-- zsh
+- [zshrc](store/zshrc)
+- [oh-my-zsh](store/oh-my-zsh)
 
-[zshrc](store/zshrc)
-[oh-my-zsh](store/oh-my-zsh)
+### iterm
 
-- iterm.json
-
-[iterm profile](store/iterm.json)
+- [iterm profile](store/iterm.json)
 
 
-
-## Установка cli-home
-
-
-
-### Полезные команды
+## Полезные команды
 
 Найти самые большие файлы в системе: `du -a /home | sort -n -r | head -n 5`
