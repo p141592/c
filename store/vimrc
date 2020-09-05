@@ -19,6 +19,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'fatih/vim-go'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'dart-lang/dart-vim-plugin'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
