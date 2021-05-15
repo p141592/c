@@ -39,4 +39,4 @@
 
 ## Полезные команды
 
-Найти самые большие файлы в системе: `du -a /home | sort -n -r | head -n 5`
+Найти самые большие файлы в системе: `du -a /home | sort -n -r | head -n 5` или `find / -mtime -3 -size +100000 -exec ls -ls {} \; | sort -n`
